@@ -1,0 +1,12 @@
+name: tmp_dir
+testFormat: workflowsuccess
+
+files {
+  wdl: tmp_dir/tmp_dir.wdl
+}
+
+metadata {
+  workflowName: tmp_dir
+  status: Succeeded
+  "calls.tmp_dir.mkTmpDir.returnCode": 0
+}
